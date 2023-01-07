@@ -31,7 +31,11 @@ export default function DistanceCalculatorForm(props) {
   });
 
   if (!isLoaded) {
-    return <Spinner animation="border" variant="primary" />;
+    return (
+      <div className="text-center">
+        <Spinner animation="border" variant="primary" />
+      </div>
+    );
   }
 
   const calculateRoute = async () => {

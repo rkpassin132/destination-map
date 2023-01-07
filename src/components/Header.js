@@ -6,10 +6,10 @@ export default function Header() {
     <Navbar bg="white" className="header">
       <Container>
         <img
-          src="logo.png"
+          src="assets/images/logo.png"
           height="69"
           className="d-inline-block align-top"
-          alt="React Bootstrap logo"
+          alt="Rahul"
         />
       </Container>
     </Navbar>

@@ -43,7 +43,11 @@ const DistanceCalculatorMap = forwardRef((props, ref) => {
   }));
 
   if (!isLoaded) {
-    return <Spinner animation="border" variant="primary" />;
+    return (
+      <div className="text-center">
+        <Spinner animation="border" variant="primary" />
+      </div>
+    );
   }
 
   return (
