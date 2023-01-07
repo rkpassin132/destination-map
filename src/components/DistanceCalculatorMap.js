@@ -1,12 +1,11 @@
 import React, { useState, forwardRef, useImperativeHandle } from "react";
-import { Card, Spinner, Button } from "react-bootstrap";
+import { Card, Spinner } from "react-bootstrap";
 import {
   useJsApiLoader,
   GoogleMap,
   Marker,
   DirectionsRenderer,
 } from "@react-google-maps/api";
-import { GeoAltFill } from "react-bootstrap-icons";
 
 const center = { lat: 28.581718002134057, lng: 77.05769058833593 };
 
