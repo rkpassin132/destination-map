@@ -1,4 +1,4 @@
-# Gravity Task 👋 [here](https://rkpassin132-map.netlify.app/)
+# Destination map 👋 [here](https://rkpassin132-destination-map.netlify.app/)
 A simple one page web app using ReactJs.
 
 - The app takes location inputs of "Origin" & "Destination" and then plots the route on maps along with distance.
