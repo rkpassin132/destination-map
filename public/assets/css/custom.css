@@ -1,0 +1,69 @@
+body {
+  background-color: #f4f8fa !important;
+}
+.header {
+  height: 80px;
+}
+.sub-heading {
+  padding: 20px 0px;
+  color: blue;
+  font-family: "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.distance-form .submit-btn-col{
+    display: flex;
+    align-items: center;
+    flex-direction: inherit;
+}
+.distance-form .submit-btn{
+    width: 141px;
+    height: 62px;
+    background: #1B31A8;
+    border-radius: 32px;
+}
+.form-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.total-distance .col:nth-child(1) {
+  display: flex;
+  align-items: end;
+}
+.total-distance h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #1e2a32;
+}
+.total-distance h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: right;
+  color: #0079ff;
+}
+.total-distance .card-footer {
+  background-color: #f4f8fa !important;
+}
+.google-map {
+  width: 100%;
+  height: 511px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .distance-form .submit-btn-col{
+        flex-direction: column;
+    }
+}
